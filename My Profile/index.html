@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0 10px;
+        }
+
+        header{
+            background-color: green;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 10px;
+        }
+
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #e0e0e0;
+            margin: 0;
+        }
+
+        nav li {
+            margin: 0 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #ccc;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        aside {
+            font-style: italic;
+            background-color: #fffbe6;
+            padding: 10px;
+            border-left: 4px solid #ffcc00;
+            margin: 20px 0;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        ol {
+            margin-left: 0px;
+        }
+
+        form {
+            background-color: #eef;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        form label {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form input, form select, form textarea {
+            width: 100%;
+            margin: 5px 0 15px 0;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            background-color: #35bb54;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #11b063;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+            padding: 8px;
+            text-align: center;
+        }
+        tr:hover{
+            background-color: tomato;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #004080;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+    <h1>Md. Alamin Ridoy</h1>
+    <h2>Welcome to my first webpage.</h2>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="home.com">Home</a></li>
+            <li><a href="home.com">Projects</a></li>
+            <li><a href="home.com">Contact</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <h2> About Me</h2>
+            <p>
+                Hello! I am learning <em>web development</em> and exploring HTML. 
+                I enjoy creating simple web pages and <strong>practicing new skills</strong> every day!
+            </p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>PankNGo</li>
+                <li>Rental vehicle Car</li>
+                <li>E-Commerce</li>
+            </ul>
+        </section>
+    </main>
+    <hr>
+    <aside>
+        <p>"Code is like humor. When you have to explain it, it’s bad."</p>
+    </aside>
+    <hr>
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Cricket</li>
+        <li>football</li>
+        <li>Gaming</li>
+        <li>Travalling</li>
+        <ol>
+            <li>desh</li>
+            <li>bidesh</li>
+        </ol>
+    </ul>
+    <hr>
+
+    <h2>Contact Me</h2>
+
+    <form action="xyz">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="cars">Your Professional Status</label>
+        <select name="cars" id="cars">
+            <option value="default">default</option>
+            <option value="Student">Student</option>
+            <option value="Job Holders">Job Holders</option>
+            <option value="others">others</option>
+        </select>
+        <br>
+        <label for="textarea">Message:</label><br>
+        <textarea name="message" id="textarea"></textarea>
+        <br>
+        <input type="submit" value="Send">
+    </form>
+
+
+    <p>
+        links in new tab-> <a href="https://fast.com/" target="_blank">Fast speed</a>
+    </p>
+    <p>Click here to email me: <a href="mailto:mdalaminridoy58@gmail.com">Email</a></p>
+    <hr>
+
+    <img src="/IMG_20220827_233426_167.jpg" alt="Alamin's Picture" height="225" width="200">
+    
+    <h2>My Weekly Class Routine</h2>
+    <table border="1" style="border: 1px;">
+        <tr>
+            <th>Day</th>
+            <th>9AM–10AM</th>
+            <th>10AM–11AM</th>
+            <th>11AM–12PM</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>TuesDay</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Math</td>
+            <td>Physics</td>
+            <td>Break</td>
+        </tr>
+    </table>
+    
+    <footer>
+        <p>&copy; 2025 Md. Alamin Ridoy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
